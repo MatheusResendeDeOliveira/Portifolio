@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url("reset.css");
+@import url("habilidades.css");
+@import url("curriculo.css");
+
+:root {
+    --cor-texto-padrao: #f8f9fa;
+    --cor-background: #212529;
+    --cor-contraste: #1E21C3;
+    --cor-contraste-secundaria: #ef233c;
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-texto-padrao);
+}
+
+.inicio {
+    background-image: url("/assets/Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Irish Grover', cursive;
+    font-weight: 400;
+    height: 100vh;
+}
+
+.inicio__titulo {
+    font-size: 2.5rem;
+}
+
+.inicio__subtitulo {
+    font-size: 2rem;
+}
+
+.sobre {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+}
+
+.sobre__foto {
+    width: 70%;
+    margin: 0 0 20px 20px;
+    border: 6px groove #e9ecef;
+}
+
+.sobre__informacoes {
+    text-align: center;
+    margin: 2.5em;
+    
+}
+
+.sobre__informacoes__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2em;
+    color: var(--cor-contraste-secundaria);
+}
+
+.sobre__informacoes__paragrafo {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.informacao__destaque {
+    color: var(--cor-contraste);
+}

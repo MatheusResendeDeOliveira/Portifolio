@@ -1,0 +1,31 @@
+.habilidades {
+    padding: 2em;
+    text-align: center;
+}
+
+.habilidade__titulo {
+    font-size: 2.5em;
+    padding: 2em 0;
+    color: var(--cor-contraste-secundaria);
+}
+
+.habilidades__tecnologias {
+    display: flex;
+}
+
+.tecnologias {
+    margin: 2.5em;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    border: 3px solid var(--cor-contraste);
+    border-radius: 1em;
+    transition: transform 0.3s;
+}
+
+.tecnologias__nome {
+    padding-top: 0.5em;
+    font-size: 1.5em;
+}
+
+.tecnologias:hover {
+    transform: scale(1.1);
+}
